@@ -1,0 +1,19 @@
+{
+    "lens_name": "slacs1430+4105",
+    "z_lens": 0.285,
+    "z_source": 0.575,
+    "b_SIE": 1.52,
+    "log[Mein/Mo]": 11.73,
+    "gamma": 2.06,
+    "gamma_err": 0.18,
+    "M_Ein": 537031796370.2555,
+    "marker": "x",
+    "colour": "mediumpurple",
+    "shear": 0.1,
+    "q_SIE": 0.68,
+    "PA": 111.7,
+    "R_eff": 2.55,
+    "sigma": 322.0,
+    "sigma_err": 32.0,
+    "subhalo_grid_dimensions_arcsec":
+}

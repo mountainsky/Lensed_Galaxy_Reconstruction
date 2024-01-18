@@ -1,0 +1,68 @@
+Bayesian Evidence                                                                         -207447.57993815
+Maximum Log Likelihood                                                                    -207432.40094225
+Maximum Log Posterior                                                                     669423.05125127
+
+model                                                                                     CollectionPriorModel (N=13)
+    galaxies                                                                              CollectionPriorModel (N=13)
+        lens                                                                              Galaxy (N=13)
+            bulge                                                                         EllSersic (N=7)
+            disk                                                                          EllExponential (N=6)
+
+Maximum Log Likelihood Model:
+
+galaxies
+    lens
+        bulge
+            centre
+                centre_0                                                                  -0.037
+                centre_1                                                                  -0.004
+            elliptical_comps
+                elliptical_comps_0                                                        -0.101
+                elliptical_comps_1                                                        -0.018
+            intensity                                                                     0.082
+            effective_radius                                                              2.643
+            sersic_index                                                                  3.528
+        disk
+            elliptical_comps
+                elliptical_comps_0                                                        0.155
+                elliptical_comps_1                                                        0.281
+            intensity                                                                     0.001
+            effective_radius                                                              5.620
+            centre
+                centre_0                                                                  0.010
+                centre_1                                                                  -0.111
+
+ WARNING: The samples have not converged enough to compute a PDF and model errors. 
+ The model below over estimates errors. 
+
+
+
+Summary (1.0 sigma limits):
+
+galaxies
+    lens
+        bulge
+            centre
+                centre_0                                                                  -0.0366 (-0.0366, -0.0366)
+                centre_1                                                                  -0.0043 (-0.0043, -0.0043)
+            elliptical_comps
+                elliptical_comps_0                                                        -0.1010 (-0.1010, -0.1010)
+                elliptical_comps_1                                                        -0.0183 (-0.0183, -0.0183)
+            intensity                                                                     0.0824 (0.0824, 0.0824)
+            effective_radius                                                              2.6429 (2.6429, 2.6429)
+            sersic_index                                                                  3.5279 (3.5279, 3.5279)
+        disk
+            elliptical_comps
+                elliptical_comps_0                                                        0.1550 (0.1550, 0.1550)
+                elliptical_comps_1                                                        0.2810 (0.2810, 0.2810)
+            intensity                                                                     0.0006 (0.0006, 0.0006)
+            effective_radius                                                              5.6196 (5.6196, 5.6196)
+            centre
+                centre_0                                                                  0.0100 (0.0100, 0.0100)
+                centre_1                                                                  -0.1110 (-0.1110, -0.1110)
+
+instances
+
+galaxies
+    lens
+        redshift                                                                          0.285

@@ -1,0 +1,41 @@
+Total Free Parameters = 12 
+
+model                                                                                     CollectionPriorModel (N=12)
+    galaxies                                                                              CollectionPriorModel (N=12)
+        lens                                                                              Galaxy (N=5)
+            light                                                                         EllSersic (N=2)
+            mass                                                                          EllPowerLaw (N=1)
+            shear                                                                         ExternalShear (N=2)
+        source                                                                            Galaxy (N=7)
+            light1                                                                        EllSersic (N=7) 
+
+galaxies
+    lens
+        redshift                                                                          0.2803
+        light
+            centre                                                                        (0.0, 0.0)
+            elliptical_comps                                                              (-0.019434132460378103, -0.030623292634788083)
+            intensity                                                                     LogUniformPrior, lower_limit = 1e-06, upper_limit = 1000000.0
+            effective_radius                                                              1.39
+            sersic_index                                                                  GaussianPrior, mean = 4, sigma = 0.2
+        mass
+            centre                                                                        (0.0, 0.0)
+            elliptical_comps                                                              (-0.019434132460378103, -0.030623292634788083)
+            einstein_radius                                                               1.04
+            slope                                                                         UniformPrior, lower_limit = 1.5, upper_limit = 3.0
+        shear
+            elliptical_comps
+                elliptical_comps_0                                                        UniformPrior, lower_limit = -0.2, upper_limit = 0.2
+                elliptical_comps_1                                                        UniformPrior, lower_limit = -0.2, upper_limit = 0.2
+    source
+        redshift                                                                          0.9818
+        light1
+            centre
+                centre_0                                                                  GaussianPrior, mean = 0.0, sigma = 0.3
+                centre_1                                                                  GaussianPrior, mean = 0.0, sigma = 0.3
+            elliptical_comps
+                elliptical_comps_0                                                        GaussianPrior, mean = 0.0, sigma = 0.3
+                elliptical_comps_1                                                        GaussianPrior, mean = 0.0, sigma = 0.3
+            intensity                                                                     LogUniformPrior, lower_limit = 1e-06, upper_limit = 1000000.0
+            effective_radius                                                              UniformPrior, lower_limit = 0.01, upper_limit = 0.3
+            sersic_index                                                                  UniformPrior, lower_limit = 0.8, upper_limit = 5.0

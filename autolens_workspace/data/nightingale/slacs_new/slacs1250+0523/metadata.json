@@ -1,0 +1,19 @@
+{
+    "lens_name": "slacs1250+0523",
+    "z_lens": 0.232,
+    "z_source": 0.795,
+    "b_SIE": 1.13,
+    "log[Mein/Mo]": 11.26,
+    "gamma": 2.3,
+    "gamma_err": 0.12,
+    "M_Ein": 181970085860.9988,
+    "marker": 8,
+    "colour": "steelblue",
+    "shear": 0.01,
+    "q_SIE": 0.96,
+    "PA": 130.8,
+    "R_eff": 1.81,
+    "sigma": 252.0,
+    "sigma_err": 14.0,
+    "subhalo_grid_dimensions_arcsec":
+}

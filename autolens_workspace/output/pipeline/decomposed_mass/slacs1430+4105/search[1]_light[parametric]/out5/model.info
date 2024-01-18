@@ -1,0 +1,30 @@
+Total Free Parameters = 13 
+
+model                                                                                     CollectionPriorModel (N=13)
+    galaxies                                                                              CollectionPriorModel (N=13)
+        lens                                                                              Galaxy (N=13)
+            bulge                                                                         EllSersic (N=7)
+            disk                                                                          EllExponential (N=6) 
+
+galaxies
+    lens
+        redshift                                                                          0.285
+        bulge
+            centre
+                centre_0                                                                  GaussianPrior, mean = 0.0, sigma = 0.3
+                centre_1                                                                  GaussianPrior, mean = 0.0, sigma = 0.3
+            elliptical_comps
+                elliptical_comps_0                                                        GaussianPrior, mean = 0.0, sigma = 0.3
+                elliptical_comps_1                                                        GaussianPrior, mean = 0.0, sigma = 0.3
+            intensity                                                                     LogUniformPrior, lower_limit = 1e-06, upper_limit = 1000000.0
+            effective_radius                                                              UniformPrior, lower_limit = 0.0, upper_limit = 30.0
+            sersic_index                                                                  UniformPrior, lower_limit = 0.8, upper_limit = 5.0
+        disk
+            centre
+                centre_0                                                                  UniformPrior, lower_limit = -0.2, upper_limit = 0.2
+                centre_1                                                                  UniformPrior, lower_limit = -0.2, upper_limit = 0.2
+            elliptical_comps
+                elliptical_comps_0                                                        GaussianPrior, mean = 0.0, sigma = 0.3
+                elliptical_comps_1                                                        GaussianPrior, mean = 0.0, sigma = 0.3
+            intensity                                                                     LogUniformPrior, lower_limit = 1e-06, upper_limit = 1000000.0
+            effective_radius                                                              UniformPrior, lower_limit = 0.0, upper_limit = 30.0

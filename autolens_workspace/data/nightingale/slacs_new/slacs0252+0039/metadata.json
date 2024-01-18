@@ -1,0 +1,19 @@
+{
+    "lens_name": "slacs0252+0039",
+    "z_lens": 0.28,
+    "z_source": 0.982,
+    "b_SIE": 1.04,
+    "log[Mein/Mo]": 11.25,
+    "gamma": 1.57,
+    "gamma_err": 0.12,
+    "M_Ein": 177827941003.89276,
+    "marker": "x",
+    "colour": "red",
+    "shear": 0.01,
+    "q_SIE": 0.93,
+    "PA": 106.2,
+    "R_eff": 1.39,
+    "sigma": 170.0,
+    "sigma_err": 12.0,
+    "subhalo_grid_dimensions_arcsec":
+}

@@ -1,0 +1,12 @@
+galaxies_lens_light_intensity                                         I_i
+galaxies_lens_mass_slope                                              S_s
+galaxies_lens_shear_elliptical_comps_0                                \xi_e
+galaxies_lens_shear_elliptical_comps_1                                \xi_e
+galaxies_source_light1_centre_0                                       y_c
+galaxies_source_light1_centre_1                                       x_c
+galaxies_source_light1_elliptical_comps_0                             \xi_e
+galaxies_source_light1_elliptical_comps_1                             \xi_e
+galaxies_source_light1_intensity                                      I_i
+galaxies_source_light1_sersic_index                                   n_s
+galaxies_lens_light_sersic_index                                      n_s
+galaxies_source_light1_effective_radius                               R_e

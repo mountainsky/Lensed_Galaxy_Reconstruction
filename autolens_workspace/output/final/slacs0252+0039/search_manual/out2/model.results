@@ -1,0 +1,101 @@
+Bayesian Evidence                                                                         7341.20565250
+Maximum Log Likelihood                                                                    7406.83977865
+Maximum Log Posterior                                                                     926138.60414800
+
+model                                                                                     CollectionPriorModel (N=12)
+    galaxies                                                                              CollectionPriorModel (N=12)
+        lens                                                                              Galaxy (N=5)
+            light                                                                         EllSersic (N=2)
+            mass                                                                          EllPowerLaw (N=1)
+            shear                                                                         ExternalShear (N=2)
+        source                                                                            Galaxy (N=7)
+            light1                                                                        EllSersic (N=7)
+
+Maximum Log Likelihood Model:
+
+galaxies
+    lens
+        light
+            intensity                                                                     0.096
+            sersic_index                                                                  3.111
+        mass
+            slope                                                                         2.359
+        shear
+            elliptical_comps
+                elliptical_comps_0                                                        0.003
+                elliptical_comps_1                                                        0.009
+    source
+        light1
+            centre
+                centre_0                                                                  0.124
+                centre_1                                                                  -0.011
+            elliptical_comps
+                elliptical_comps_0                                                        0.393
+                elliptical_comps_1                                                        0.013
+            intensity                                                                     0.206
+            sersic_index                                                                  0.856
+            effective_radius                                                              0.091
+
+
+Summary (3.0 sigma limits):
+
+galaxies
+    lens
+        light
+            intensity                                                                     0.0956 (0.0952, 0.0959)
+            sersic_index                                                                  3.1117 (3.1038, 3.1201)
+        mass
+            slope                                                                         2.3761 (2.2866, 2.4713)
+        shear
+            elliptical_comps
+                elliptical_comps_0                                                        0.0033 (0.0017, 0.0050)
+                elliptical_comps_1                                                        0.0096 (0.0067, 0.0129)
+    source
+        light1
+            centre
+                centre_0                                                                  0.1259 (0.1164, 0.1351)
+                centre_1                                                                  -0.0108 (-0.0129, -0.0090)
+            elliptical_comps
+                elliptical_comps_0                                                        0.3926 (0.3731, 0.4090)
+                elliptical_comps_1                                                        0.0169 (0.0005, 0.0349)
+            intensity                                                                     0.2032 (0.1882, 0.2173)
+            sersic_index                                                                  0.8625 (0.8050, 0.9272)
+            effective_radius                                                              0.0928 (0.0865, 0.0992)
+
+
+Summary (1.0 sigma limits):
+
+galaxies
+    lens
+        light
+            intensity                                                                     0.0956 (0.0954, 0.0957)
+            sersic_index                                                                  3.1117 (3.1092, 3.1143)
+        mass
+            slope                                                                         2.3761 (2.3489, 2.4053)
+        shear
+            elliptical_comps
+                elliptical_comps_0                                                        0.0033 (0.0028, 0.0039)
+                elliptical_comps_1                                                        0.0096 (0.0088, 0.0106)
+    source
+        light1
+            centre
+                centre_0                                                                  0.1259 (0.1231, 0.1287)
+                centre_1                                                                  -0.0108 (-0.0114, -0.0102)
+            elliptical_comps
+                elliptical_comps_0                                                        0.3926 (0.3867, 0.3983)
+                elliptical_comps_1                                                        0.0169 (0.0117, 0.0223)
+            intensity                                                                     0.2032 (0.1990, 0.2080)
+            sersic_index                                                                  0.8625 (0.8422, 0.8832)
+            effective_radius                                                              0.0928 (0.0908, 0.0949)
+
+instances
+
+galaxies
+    lens
+        redshift                                                                          0.2803
+        light
+            effective_radius                                                              1.39
+        mass
+            einstein_radius                                                               1.04
+    source
+        redshift                                                                          0.9818
